@@ -1,0 +1,22 @@
+.my-class {
+  transform: scale(1, 1);
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.5, 1.5);
+  }
+}
+.slides {
+  position: relative;
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+  }
+  .slick-prev {
+    left: 5%;
+  }
+  .slick-next {
+    right: 5%;
+  }
+}

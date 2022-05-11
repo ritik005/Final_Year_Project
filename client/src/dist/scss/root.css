@@ -1,0 +1,29 @@
+.my-class {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.my-class:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev, .slides .slick-next {
+  position: absolute;
+  top: 50%;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+/*# sourceMappingURL=root.css.map */
